@@ -1,0 +1,32 @@
+Spotify API rules/guidlines:
+
+
+
+Developer Policy: 
+
+1. Streaming only permitted for Premium subscribers. Streaming of music sound recordings through the Spotify Platform shall only be made available to subscribers to the Premium Spotify Service. Please note that (i) Widgets and (ii) Audio Preview Clips may be made available to Spotify users who do not subscribe to the Premium service to the extent such functionality is available through the Spotify Platform. Streaming of podcasts can be made available to all users of the Spotify Service.
+
+2.Widgets. If you use Spotify Widgets, you must also comply with the restrictions set out in the Spotify Widgets Terms located here: https://developer.spotify.com/documentation/embeds/terms/
+
+
+Website design guidelines:
+{just make it look like spotify content}
+https://developer.spotify.com/documentation/general/design-and-branding/
+
+
+Section 5 Users and Data:
+8. You must provide all users with a working and easily accessible mechanism to disconnect their Spotify Service account from your SDA at any time and provide clear instructions on how to do so. Further, when a user disconnects their Spotify Service account or otherwise expresses an intent to prevent your SDA from accessing their data, you agree to delete and no longer request or process any of that user’s Spotify Personal Data.
+11. You must display and require end users to agree to an enforceable end user agreement reflecting at least the following minimum terms:
+not make any warranties or representations on behalf of Spotify and expressly disclaim all implied warranties with respect to the Spotify Platform, Spotify Service and Spotify Content, including the implied warranties of merchantability, fitness for a particular purpose and non-infringement;
+prohibit modifying or creating derivative works based on the Spotify Platform, Spotify Service or Spotify Content;
+prohibit decompiling, reverse-engineering, disassembling, and otherwise reducing the Spotify Platform, Spotify Service, and Spotify Content to source code or other human-perceivable form, to the full extent allowed by law;
+state that you are responsible for your products and disclaim any liability on the part of third parties (e.g., Spotify);
+state that Spotify is a third party beneficiary of your end user license agreement and privacy policy and is entitled to directly enforce your end user license agreement.
+12. You must display a privacy policy to end users before they install or signup to your SDA. You will make a complete and accurate disclosure to end users of the privacy practices and policies applicable to your SDA, including notice to the end user:
+that your collection and use of data is subject to your privacy policy;
+of the information you collect from users;
+about how you collect, use, and share that information;
+about how users can contact you with inquiries regarding their information;
+about your use of Cookies;
+whether you allow third parties to place Cookies on users’ browsers in order to collect information about their browsing activities; and
+about users’ options for Cookie management.
