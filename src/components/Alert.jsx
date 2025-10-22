@@ -44,6 +44,12 @@ export default function Alert({ code, msg, setAlert }) {
                 {code === 401
                     ? <button onClick={logout}>Log in</button>
                     : ''}
+                {code === 331
+                    ? <>
+                        <a style={{ color: '#0000FF'}} target="_blank" href='https://youtu.be/kKfAiDQFEz4'>youtube link</a>
+                        <a style={{ color: '#0000FF'}} target="_blank" href='https://developer.spotify.com/blog/2024-11-27-changes-to-the-web-api'>relevant spotify docs</a>
+                      </>
+                    : ''}
             </div>
         </StyledAlert>
     )

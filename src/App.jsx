@@ -44,7 +44,14 @@ function App() {
   }
 
   function checkLoggedIn() {
-    if (!token) return <Login />
+    if (!token) return (
+      <>
+        <Alert code={331} msg={"Hey, I changed the hosting for this app recently, which broke the backend Oauth login process.  I plan to fix it for simple practice with AWS Lambda, but I'm in no rush because Spotify nerfed their API severely for applications in 'dev mode', -ruining the essential functions of this application.  If you would like to see a demo video from when I made this application click here: "} setAlert={setAlert} />
+        <Login />
+      </>
+    )
+
+
     return (
       <>
         {renderAlert()}
