@@ -79,10 +79,7 @@ const StyledLoginContainer = styled.main`
     }
 `
 
-const LOGIN_URI =
-    process.env.NODE_ENV !== 'production'
-        ? 'http://localhost:8000/login'
-        : 'https://main.ds935drzhf7un.amplifyapp.com/login';
+const LOGIN_URI = import.meta.env.VITE_LOGIN_URI
 
 export default function Login() {
 
