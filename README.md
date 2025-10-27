@@ -35,3 +35,9 @@
 <p>
   Play Music!  This sounds like a tricky feat because we're already making a lot of calls to the API, but it could be done.
 </p>
+<h3>
+  Bugs
+</h3>
+<p>
+  We don't have tokenRefresh() implemented in AWS lambda.
+</p>
